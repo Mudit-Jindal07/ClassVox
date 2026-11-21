@@ -1,5 +1,6 @@
 # Logs
-logs
+logs/*
+!logs/.gitkeep
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -69,6 +70,10 @@ web_modules/
 .env
 .env.*
 !.env.example
+
+# Prisma local development database
+prisma/*.db
+prisma/*.db-journal
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
